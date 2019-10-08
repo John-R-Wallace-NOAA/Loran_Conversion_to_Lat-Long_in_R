@@ -2,9 +2,9 @@ The R function, 'Loran.f', uses the 32-bit DOS executable 'GPTOTD.EXE' to conver
 
 The 'Example R Code.R' script has looping software to allow conversion of large data frames. 
 
-Go to:
+For the software goto:
 
-   https://www.loran.org/software.htm for the software ('GP to TD Zip' under Program Files
+   https://www.loran.org/software.htm  ('GP to TD Zip' under Program Files
    ).
     
 To get a free 32-bit Windows XP virtual machine to run on your 64-bit box see:
