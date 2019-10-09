@@ -1,19 +1,5 @@
 
  source('Loran.f.R') 
- shell("echo 4 >> LoranIn.txt")
-  
- system("Loran.bat", show.output.on.console=F)
-
- LatLong <- scan("LoranOut.txt", what="", skip=41, nlines=1, quiet = T)[3:8]
- LatLong[3] <- substring(LatLong[3], 1, nchar(LatLong[3]) - 1)
- LatLong[6] <- substring(LatLong[6], 1, nchar(LatLong[6]) - 1)
- LatLong <- as.numeric(LatLong)
-
- data.frame(Lat.DD = LatLong[1] + LatLong[2]/60 + LatLong[3]/3600, Long.DD = LatLong[4] + LatLong[5]/60 + LatLong[6]/3600)
-
-}
-
-
 
 bar <- function(i, n, size = 60, char = ">", prefix = memory.size())
   {
