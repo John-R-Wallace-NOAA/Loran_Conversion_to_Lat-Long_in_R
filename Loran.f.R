@@ -37,12 +37,11 @@ Loran.f <- function(STCHAN1, STCHAN2, CHAIN, ptdepart.Lat, ptdepart.Long) {
     shell(paste("echo ", ptdepart.Lat[1], "N", " ", ptdepart.Long[1], "W", " ", formatC(STCHAN2[1], 2, format='f'), " ", formatC(STCHAN1[1], 2, format='f'), " >> LoranIn.txt", sep=""))
 
   }
-
-
  
  shell("echo 4 >> LoranIn.txt")
-  
- system("Loran.bat", show.output.on.console=F)
+ 
+ write("type LoranIn.txt | GPTOTD.EXE > LoranOut.txt", file = 'Loran.bat')
+ system("Loran.bat", show.output.on.console = FALSE)
 
  LatLong <- scan("LoranOut.txt", what="", skip=41, nlines=1, quiet = T)[3:8]
  LatLong[3] <- substring(LatLong[3], 1, nchar(LatLong[3]) - 1)
