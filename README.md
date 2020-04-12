@@ -4,8 +4,7 @@ The 'Example R Code.R' script has looping software to allow conversion of large 
 
 For GPTOTD.EXE go to:
 
-   https://www.loran.org/software.htm  ('GP to TD Zip' under Program Files
-   ).
+   https://www.loran.org/software.htm  ('GP to TD Zip' under Program Files).
     
  Keep the 3 DATUM files (FWGS84, FWGS72, FNAD) in the same folder as GPTOTD.EXE. 
     
