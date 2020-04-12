@@ -1,6 +1,6 @@
 The R function, 'Loran.f', uses the 32-bit DOS executable 'GPTOTD.EXE' to convert Loran coordinates to lat/long in R.
 
-The 'Example R Code.R' script has looping software to allow conversion of large data frames. 
+The 'Example R Code.R' script has looping software to allow conversion of large data sets. 
 
 For GPTOTD.EXE go to:
 
