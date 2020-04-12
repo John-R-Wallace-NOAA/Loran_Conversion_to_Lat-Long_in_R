@@ -14,4 +14,4 @@ To get a free 32-bit Windows XP virtual machine to run on your 64-bit box see:
 
 The R version 2.12.2 will install into the 32-bit Windows XP enviroinment:
 
-    https://cran-archive.r-project.org/bin/windows/base/old/2.12.2/
+   https://cran-archive.r-project.org/bin/windows/base/old/2.12.2/
