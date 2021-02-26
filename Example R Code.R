@@ -33,7 +33,7 @@ readIn <- function (ncol, nlines, ...)
 
 # --------------------------------------------------------------------------------------------------------------------
 
-# Copy and paste the next 13 lines of code into the 32bit R command window to read in the Example.Loran.Data
+# Copy and paste the next 13 lines of code into the 32bit R command window to read in Example.Loran.Data
 Example.Loran.Data <- readIn(7, 12)
 trp.haul STCHAN1 STCHAN2          CHAIN         ptdepart ptdepart.Lat ptdepart.Long
     5.10 28280.0 41803.0 '5990 Canadian' 'WARRENTON, OR'         4610         12355
