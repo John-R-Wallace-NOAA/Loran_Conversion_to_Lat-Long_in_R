@@ -48,6 +48,7 @@ trp.haul STCHAN1 STCHAN2          CHAIN         ptdepart ptdepart.Lat ptdepart.L
     6.07 13002.3 27833.6 '9940 American'   'NEWPORT, OR'         4438         12403
     6.08 13002.0 27811.9 '9940 American'   'NEWPORT, OR'         4438         12403
 
+
 # A single call using Loran.f
 Loran.f(28280.0, 41803.0, 5990, 4610, 12355)
 
