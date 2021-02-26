@@ -11,6 +11,11 @@ For GPTOTD.EXE go to:
 To get a free 32-bit Windows XP virtual machine to run on your 64-bit box see:
 
    https://www.makeuseof.com/tag/download-windows-xp-for-free-and-legally-straight-from-microsoft-si/
+   
+*** Update: WindowsXPMode_en-us.exe as of 26 Feb 2021 can be found here: ***
+
+  https://download.cnet.com/Windows-XP-Mode/3001-18513_4-77683344.html   
+   
 
 The R version 2.12.2 will install into the 32-bit Windows XP enviroinment and run the code provided:
 
